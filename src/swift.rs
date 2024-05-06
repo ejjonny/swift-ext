@@ -2,8 +2,6 @@ use zed_extension_api::{self as zed, Result};
 
 struct SwiftExtension {}
 
-impl SwiftExtension {}
-
 impl zed::Extension for SwiftExtension {
     fn new() -> Self {
         Self {}
@@ -16,7 +14,7 @@ impl zed::Extension for SwiftExtension {
     ) -> Result<zed::Command> {
         Ok(zed::Command {
             command: "/usr/bin/sourcekit-lsp".into(),
-            args: vec!["--log-level".into(), "debug".into()],
+            args: vec![],
             env: Default::default(),
         })
     }
