@@ -1,9 +1,9 @@
-id = "swift"
-name = "Swift"
-description = "Swift support."
+id = "swift-lsp"
+name = "Swift LSP"
+description = "Swift LSP & syntax highlighting!"
 version = "0.0.1"
 schema_version = 1
-authors = []
+authors = ["ejjonny <https://github.com/ejjonny>"]
 repository = "https://github.com/zed-industries/zed"
 
 [grammars.swift]
